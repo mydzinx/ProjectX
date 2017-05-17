@@ -19,5 +19,6 @@ void MainWindow::sprawdzanie_otworu_H()
         ui->label->setText(ui->spinBox->text());
         ui->label_2->setText("+0,028\n+0");
     }
+    //KONIEC SPRAWDZANIA LITERY H
 }
 
