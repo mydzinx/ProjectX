@@ -2,6 +2,7 @@
 #include "mainwindow.h"
 #include <QMessageBox>
 #include "ui_mainwindow.h"
+#include "walek.h"
 otwor::otwor()
 {
 

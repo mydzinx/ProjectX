@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "otwor.h"
+#include "walek.h"
 
 
 //VER 0.1.1
@@ -29,4 +30,9 @@ sprawdzanie_otworu_H(); //czyta z pliku otwor - tolerancje
 void MainWindow::on_pushButton_2_clicked()
 {
     przelicz_calemm(); // czyta z pliku przeliczenia voida
+}
+
+void MainWindow::on_pushButton_4_clicked()
+{
+   sprawdzanie_walka_h();
 }
