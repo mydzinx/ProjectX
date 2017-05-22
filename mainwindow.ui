@@ -24,53 +24,12 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
       <string>Otwór</string>
      </attribute>
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>111</y>
-        <width>16</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>xxx</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_2">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>100</y>
-        <width>47</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="lineWidth">
-       <number>1</number>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-      <property name="textFormat">
-       <enum>Qt::AutoText</enum>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
      <widget class="QGroupBox" name="groupBox">
       <property name="geometry">
        <rect>
@@ -385,14 +344,407 @@
        </property>
       </widget>
      </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>100</y>
+        <width>47</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>111</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>xxx</string>
+      </property>
+     </widget>
      <zorder>groupBox</zorder>
      <zorder>label</zorder>
      <zorder>label_2</zorder>
+     <zorder>label_2</zorder>
+     <zorder>label</zorder>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
       <string>Wałek</string>
      </attribute>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>241</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Wartości</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>30</y>
+         <width>71</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>OK</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>30</y>
+         <width>51</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>c11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d9</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d10</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>e6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>e7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>e8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>e9</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>f6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>f7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>f8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>g5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>g6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>g7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h9</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h10</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h12</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>h13</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>j6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>js4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>js12</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>js16</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>k10</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>k11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>m5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>m6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>m7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>n5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>n6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>n7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>p5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>p6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>p7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>p8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>r6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>r7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>s6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>s7</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>71</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="wrapping">
+        <bool>false</bool>
+       </property>
+       <property name="frame">
+        <bool>true</bool>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
+       </property>
+       <property name="correctionMode">
+        <enum>QAbstractSpinBox::CorrectToPreviousValue</enum>
+       </property>
+       <property name="keyboardTracking">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <number>600</number>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>100</y>
+        <width>47</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>xxx</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_3">
      <attribute name="title">

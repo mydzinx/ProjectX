@@ -26,10 +26,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp\
         mainwindow.cpp \
     otwor.cpp \
-    przeliczenia.cpp
+    przeliczenia.cpp \
+    walek.cpp
 
 HEADERS  += mainwindow.h \
     otwor.h \
-    przeliczenia.h
+    przeliczenia.h \
+    walek.h
 
 FORMS    += mainwindow.ui
