@@ -23,6 +23,20 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
 sprawdzanie_otworu_H(); //czyta z pliku otwor - tolerancje
+sprawdzanie_otworu_A();
+sprawdzanie_otworu_B();
+sprawdzanie_otworu_C();
+sprawdzanie_otworu_D();
+sprawdzanie_otworu_E();
+sprawdzanie_otworu_F();
+sprawdzanie_otworu_G();
+sprawdzanie_otworu_J();
+sprawdzanie_otworu_K();
+sprawdzanie_otworu_M();
+sprawdzanie_otworu_N();
+sprawdzanie_otworu_P();
+sprawdzanie_otworu_R();
+sprawdzanie_otworu_S();
 }
 
 
@@ -35,4 +49,9 @@ void MainWindow::on_pushButton_2_clicked()
 void MainWindow::on_pushButton_4_clicked()
 {
    sprawdzanie_walka_h();
+}
+
+void MainWindow::on_lineEdit_editingFinished()
+{
+
 }
