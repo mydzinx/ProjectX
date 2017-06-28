@@ -22,7 +22,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-sprawdzanie_otworu_H(); //czyta z pliku otwor - tolerancje
+sprawdzanie_otworu_A();
+sprawdzanie_otworu_B();
+sprawdzanie_otworu_C();
+sprawdzanie_otworu_D();
+sprawdzanie_otworu_E();
+sprawdzanie_otworu_F();
+sprawdzanie_otworu_G();
+sprawdzanie_otworu_H();
 }
 
 

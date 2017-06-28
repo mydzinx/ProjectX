@@ -15,9 +15,21 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    //walki
+     void sprawdzanie_walka_h();
+
+     //otwory
+     void sprawdzanie_otworu_A();
+     void sprawdzanie_otworu_B();
+     void sprawdzanie_otworu_C();
+     void sprawdzanie_otworu_CD();
+     void sprawdzanie_otworu_D();
+     void sprawdzanie_otworu_E();
+     void sprawdzanie_otworu_F();
+     void sprawdzanie_otworu_G();
     void sprawdzanie_otworu_H();//zakladka 1
-    void sprawdzanie_walka_h();
-    void sprawdzanie_otworu_h();
+
+
     void przelicz_calemm(); //zakladka 3
 
 private slots:

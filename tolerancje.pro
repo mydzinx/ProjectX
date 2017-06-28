@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+INCLUDEPATH += $$PWD
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 

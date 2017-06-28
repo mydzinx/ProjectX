@@ -6,6 +6,7 @@ walek::walek()
 {
 
 }
+
 void MainWindow::sprawdzanie_walka_h()
 {
     if (ui->comboBox_3->currentText()=="h7" && ui->spinBox_2->value()<=20)
